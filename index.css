@@ -1,0 +1,23 @@
+body{
+	background-color: #101017;
+	color: #dddddd
+}
+
+#row{
+	width: 100px;
+	margin-left: 10px;
+}
+
+#column{
+	width: 100px;
+	margin-left: 10px;
+}
+
+#generate-button{
+	margin-left: 10px;
+}
+
+#content{
+	display: grid;
+	grid-template-columns: repeat(3, 25px);
+}
